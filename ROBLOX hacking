@@ -1,59 +1,75 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "CARRY A FRIEND | BY MR.DACUDAO", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DEEZ NUTS | BLOX FRUITS", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
-Name = <CARRY A FRIEND> - The name of the UI.
+Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
 SaveConfig = <bool> - Toggles the config saving in the UI.
 ConfigFolder = <string> - The name of the folder where the configs are saved.
 IntroEnabled = <bool> - Whether or not to show the intro animation.
-IntroText = <WOW YOU EXECUTE> - Text to show in the intro animation.
+IntroText = <string> - Text to show in the intro animation.
 IntroIcon = <string> - URL to the image you want to use in the intro animation.
 Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 
-local Tab = Window:MakeTab({
-	Name = "mine",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
+## 💣 Roblox Blox Fruit Script ![GitHub All Releases](https://img.shields.io/github/downloads/airsquared/blobsaver/total.svg)
 
-local Section = Tab:AddSection({
-	Name = "speed"
-})
-Tab:AddSlider({
-	Name = "Slider",
-	Min = 0,
-	Max = 200,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 16,
-	ValueName = "speed",
-	Callback = function(Value)
-		print(Value)
-	end   
- })
+## Undetected Script
 
-Tab:AddButton({
-	Name = "speed!",
-	Callback = function()
-      		print("speed pressed")
-  	end    
-})
-
-local Tab = Window:MakeTab({
-	Name = "about me",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-	Name = "info"
-})
-
-local Section = Tab:AddSection({
-	Name = "hello the creator of the script is MR.DACUDAO HE CREATED THIS 
-        SCRIPTfor EZ WAY i hope you good day 
-        subs to MR.DACUDAO"
-})
+## Main Section:
+- Auto Rejoin When Get Kick
+- Redeem all Codes
+- Hop Server
+- Hop Low Server
+## Devil Fruit Section
+- Select Devil Fruit
+- Devil Fruit Sniper
+- Auto Find Fruit
+- Auto Store Fruit
+- Auto Blox Fruit Dealer Cousin
+## Visual Seciton:
+- Devil Fruit ESP
+- Flower ESP
+- Players ESP
+## Performance Section:
+- Remove Lave Damage
+- Boost Fps
+# [Farm]
+## Options Section:
+- Select Weapon
+- Auto Haki
+- Auto Ken
+- Fast Attack
+- Bring Mob
+- Double Quest
+- Teleport Bypass
+## Farm Section:
+- Select Method Farm
+- Auto Farm
+- Auto Second Sea
+- Auto Third Sea
+- Auto Baritlo Quest
+- Auto Factory
+- Auto Pirate Raid
+- Auto Elite
+## Hop Server Section:
+- Delay Hop Server (text box)
+- Hop Server
+- Hop Server If Near Player
+- Hop Server For Fruit 1M- [Quest Sea 3]
+## Melee Section:
+- Select Melee
+- Auto Melee Fully
+## Mics Farm Section:
+- Select Boss
+- Auto Farm Boss
+- Auto Farm All Boss
+## Mastery Section:
+- Auto Farm Mastery (DF or Blox Fruit)
+- Start Farm At Max Level
+- Auto Unlock Skill Sword
+- Start Farm Unlock Skill Sword At Max Level
+- Only farm Legendary or Mythical Sword
+## Item Section:
+im lazy to write, u can use script to see feature
